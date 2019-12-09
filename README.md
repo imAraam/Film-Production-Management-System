@@ -1,5 +1,11 @@
 # A general description of the system
 
+A software system that manages film productions, which includes handling information    
+such as,  the title of each new project, the summary, genre, release date, list of filming locations,
+language, runtime, crew etc. This software will have 4 main functions, project and material
+creation, existing projects and materials update/removal, catalogue browsing and 
+maintenance mode. 
+
 The system is divided into a number of sub-sections such as, project creation, material
 creation, crew creation, and a BST (Binary search tree) section.
 Project creation consists of a Project class that stores the key information for every
@@ -84,4 +90,4 @@ node pointer. Vice versa for if it has a value to it’s left
 
 # Notes
 
-System is functional and serves its purpose but is incomplete in some aspects and lacks a GUI. 
+System is functional and serves its purpose but is incomplete in some aspects and lacks a database and a GUI. 
